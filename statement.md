@@ -2,7 +2,7 @@
 
 ## 1. Problem Statement
 
-The purpose of this assignment is to create a simple, yet rugged, command-line version of the Rock-Paper-Scissors game. In addition, the project represents an integrative assignment that aims at applying and demonstrating basic principles of Python programming with a special emphasis on the given course syllabus, namely **modular design,** effective **control flow structures** (if/else), and **reliable user input validation**.
+My friend keeps beating me at Rock Paper Scissors. I need a new opponent - one I can actually beat. Build me a computer player that's fair, random, and won't gloat when it wins.
 
 2. Scope of the Work
 
@@ -21,10 +21,10 @@ The major target users are:
 * **The Evaluator/Instructor:** For evaluation of basic Python programming and modular design skills.
 
 ## 4. High-Level Features and Functional Requirements (FR)
-The system consists of three major functional modules:
+The system includes three major functional modules:
 
-1. **Input/Output Interface Module (FR1):** This module handles the interaction with the user, from prompting the moves to input validation and then displaying the result of the game.
+FR1: Input/Output Interface Module - This module is responsible for the interaction with the user, from prompting the moves, input validation, up to displaying the result of the game.
 
-2. **Game Logic Module FR2**: Should encapsulate the core rules - if/else statements to correctly compare the player and computer moves to determine the outcome of the round: Win, Loss, or Tie.
+Game Logic Module FR2: The module should encapsulate the core rules, the logic for performing the if/else statements that accurately compare the player and computer moves to identify the outcome of the round: Win, Loss, or Tie.
 
-3. **Score Tracking Module (FR3):** Keeps a dictionary-based record of the session scores for both the player and the computer, updating and displaying them after each round.
+FR3 - Score Tracking Module: Maintains session scores for both player and computer in dictionary format and displays updated values after every round.
